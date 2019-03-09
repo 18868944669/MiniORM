@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orm-mapping>
+    <class name="cn.itcast.orm.entity.Account" table="account">
+        <id name="id" column="id"></id>
+        <property name="name" column="name"></property>
+        <property name="money" column="money"></property>
+    </class>
+</orm-mapping>
